@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Application PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Application connector="sailpoint.connector.DelimitedFileConnector" featuresString="DIRECT_PERMISSIONS, DISCOVER_SCHEMA, ACCOUNT_ONLY_REQUEST" icon="enterpriseIcon" name="FinServ" profileClass="" type="DelimitedFile">
+<Application connector="sailpoint.connector.DelimitedFileConnector" featuresString="DIRECT_PERMISSIONS, DISCOVER_SCHEMA, ACCOUNT_ONLY_REQUEST, PROVISIONING" icon="enterpriseIcon" name="FinServ" profileClass="" type="DelimitedFile">
   <AccountCorrelationConfig>
     <Reference class="sailpoint.object.CorrelationConfig" name="service account correlation"/>
   </AccountCorrelationConfig>
